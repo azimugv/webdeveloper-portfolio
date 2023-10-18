@@ -195,6 +195,9 @@ footer{
 .social-links{
     text-align: center;
 }
+.social-links a{
+    margin: 25px;
+}
 input[type="text"], input[type="email"], textarea{
     border: none;
     border-radius: 5px;
