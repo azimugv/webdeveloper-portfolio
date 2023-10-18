@@ -176,3 +176,8 @@ main section{
 .resume-container hr, .resume-item{
     margin-right: 30px;
 }
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
