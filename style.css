@@ -186,7 +186,20 @@ main section{
 
 footer{
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+    justify-content: space-between;
+}
+.social-links{
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
