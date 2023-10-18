@@ -128,3 +128,17 @@ main{
     text-align: center;
 }
 
+/* What I Do */
+
+.what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    border: 2px solid gray;
+}
