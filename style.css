@@ -111,6 +111,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section{
+    margin-top: 130px;
+}
 /* About Section */
 .about {
     padding: 130px;
@@ -137,8 +141,24 @@ main{
 .skills-container{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .skill{
-    border: 2px solid gray;
+    padding: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.skill-description{
+   
+}
+
+/* Resume */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
