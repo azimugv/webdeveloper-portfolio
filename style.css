@@ -207,3 +207,16 @@ input[type="text"], input[type="email"], textarea{
     margin-bottom: 10px;
     width: 100%;
 }
+
+.hide{
+    display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    
+}
