@@ -226,6 +226,14 @@ input[type="text"], input[type="email"], textarea{
         flex-direction: column;
         padding: 10px;
     }
+   
+    input[type="text"], input[type="email"], input[type="submit"], textarea{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
     
 }
 @media screen and (min-width:576px) and (max-width:960px){
