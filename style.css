@@ -156,7 +156,7 @@ main section{
 /* Resume */
 .resume-container{
     display: flex;
-    gap: 500;
+    gap: 50px;
     justify-content: space-between;
 }
 .resume-column-title{
@@ -218,5 +218,14 @@ input[type="text"], input[type="email"], textarea{
     .skills-container{
         flex-direction: column;
     }
+    .resume-container{
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:960px){
+  
+    
     
 }
