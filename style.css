@@ -221,6 +221,7 @@ input[type="text"], input[type="email"], textarea{
     .resume-container{
         flex-direction: column;
         margin-right: 0px;
+        padding: 10px;
     }
     footer{
         flex-direction: column;
@@ -233,8 +234,31 @@ input[type="text"], input[type="email"], textarea{
         margin: 0 auto;
         margin-bottom: 10px;
     }
-    
-    
+    .about{
+        padding: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .header {
+        background-image: none;
+    }
+    nav, nav>ul{
+        flex-direction: column;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    .banner>img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:960px){
   
